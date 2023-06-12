@@ -1,9 +1,16 @@
-/*
- * ATMega16_ADC.c
- *
- * Created: 2023-06-10 7:42:01 PM
- * Author : a_shi
- */ 
+
+//*** Program Header ***
+/************************************************************************************
+	File Name: ELNC_6007_LAB1_GS		
+	Author:	   ASHISH SHARMA	
+	Date:	   March 11, 2022 
+	Modified:  None	
+	Description:    This program will:
+			1) Convert the analog value obtained from the variable resistor connected at port A then fed into 
+			the Output Compare Register of Timer 1. 
+************************************************************************************/
+
+// Preprocessor ===================================================================
 
 #define F_CPU 8000000UL
 
